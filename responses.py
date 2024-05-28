@@ -12,7 +12,7 @@ def get_response(user_input: str) -> str:
                 '\nHere is where you can reach him; \n**Email:** gabrieltoumani06@gmail.com \n**Phone:** 818-636-6615 \n'
                 '**Instagram:** @gabriel_toumani\n'
                 '**Website:** https://sites.google.com/view/gt-auto-detailing/home\n' 
-                '**Discord:** <@724424331211309127>')
+                '**Discord:** <@724424331211309127> ')
 
     elif '/gabehelp' in lowered:
         return ('Hello there! Here are some commands you can use: \n **/gabebio;** short biography of the young man '
