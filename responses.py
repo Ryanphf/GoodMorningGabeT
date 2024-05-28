@@ -20,7 +20,8 @@ def get_response(user_input: str) -> str:
 
 
     elif '/gabeheight' in lowered:
-        return ('Gabriel Toumani stands at a height of 5 feet 5.5 inches! \n**This makes Gabe shorter than the average woman '
+        return ('Gabriel Toumani stands at a height of 5 feet 5.5 inches! \n**This makes Gabe shorter than the average '
+                'woman '
                 'in these countries/regions:** Bosnia, Dinaric Alps(5\'7.5), Netherlands(5\'7), Montenegro, Latvia(5\'6.5)'
                 ', Belgium, Iceland, Germany, Lithuania, Slovenia, Czech Republic, Denmark, Finland, Norway(5\'6).\n'
                 '**Gabe is the same height as the average women in the following countries/regions:** Tonga, Albania, Kosovo-Pristina'

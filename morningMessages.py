@@ -2,7 +2,8 @@ from random import choice
 
 def get_morningmessage():
     #
-    return choice(['Good morning, @gabe_t! :sun_with_face: It’s 7:30 AM and time to rise and shine! Hope you’re ready to take on the '
+    return choice(['Good morning, @gabe_t! :sun_with_face: It’s 7:30 AM and time to rise and shine! Hope you’re ready '
+                   'to take on the '
                    'day at your full height of 5\'5" and a half. That half inch makes all the difference, '
                    'right? :wink: Remember, great things come in small packages! Have an awesome day!',
 

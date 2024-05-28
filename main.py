@@ -80,6 +80,7 @@ async def on_ready():
     #sends "s!t" to the channel when time hits 10/20/30/40/50/60 seconds, like 12:04:20 PM
     scheduler.add_job(func, CronTrigger(hour="20", minute="43", second="20"))
 
+
     #starting the scheduler
     scheduler.start()
 
