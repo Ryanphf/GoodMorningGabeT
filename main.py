@@ -57,7 +57,7 @@ async def on_message(message: Message) -> None:
 
 
 #scheduled message i<3 stackoverflow
-CHANNEL_ID = 1244750343334658108
+CHANNEL_ID = 958864661439209532
 USER_ID = 706742916004970506
 
 async def func():
@@ -78,7 +78,7 @@ async def on_ready():
     scheduler = AsyncIOScheduler()
 
     #sends "s!t" to the channel when time hits 10/20/30/40/50/60 seconds, like 12:04:20 PM
-    scheduler.add_job(func, CronTrigger(hour="20", minute="43", second="20"))
+    scheduler.add_job(func, CronTrigger(hour="7", minute="30", second="0"))
 
 
     #starting the scheduler
